@@ -14,10 +14,9 @@ This Ruby program extracts unique four-letter sequences from words in a dictiona
 ## How It Works
 1. Reads words from `dictionary.txt` line by line.
 2. Extracts all possible four-letter sequences from each word.
-3. Retains sequences with at least one letter.
-4. Stores sequences and the corresponding word in a hash.
-5. Filters out sequences that appear in more than one word.
-6. Writes the unique sequences and their corresponding words to `sequences.txt` and `words.txt` respectively.
+3. Stores sequences and the corresponding word in a hash.
+4. Filters out sequences that appear in more than one word.
+5. Writes the unique sequences and their corresponding words to `sequences.txt` and `words.txt` respectively.
 
 ## Example
 Given the dictionary:
